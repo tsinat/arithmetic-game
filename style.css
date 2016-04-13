@@ -1,0 +1,82 @@
+.container{
+	width:350px;
+	padding:20px 100px;
+	margin:0 auto;
+	background-color:#95a5a6;
+}
+
+div {
+	padding:0;
+	
+}
+.wrong, .correct{
+	width:100px;
+	height:auto;
+	margin-bottom: 40px;
+	border-radius:50%;
+	text-align: center;
+}
+.wrong{
+	background-color:red;
+	float:left;
+}
+.correct{
+	background-color: green;
+	float:right;
+}
+h1{
+	padding-left:30px;
+	clear: both;
+}
+#first, #second, #operator {
+	font-size:2em;
+	display:inline-block;
+	/*border: 1px solid grey;*/
+	width:25px;
+	height:20px;
+	padding:20px;
+	margin-left:40px;
+}
+#first, #second {
+	background-color:#ecf0f1;
+	border-bottom: 5px solid grey;
+}
+button{
+	border:none;
+	width:90px;
+	height:90px;
+	border-radius: 30px;
+	font-size:2em;
+	padding: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color:#bdc3c7;
+	margin-left: 20px;
+}
+input {
+	font-size: 2em;
+	height:40px;
+	width:280px;
+	margin:20px;
+	padding-left:10px;
+	margin-left:30px;
+}
+.symbol{
+	background-color:#ecf0f1;
+}
+#check, #clear{
+	width:120px;
+	border-radius:none;
+}
+#clear {
+	margin-left:50px;
+}
+#check{
+	margin-left:35px;
+}
+#message{
+	margin-top:40px;
+	/*background-color:#bdc3c7;*/
+	width:100%;
+	height:100px;
+	padding-top:40px;
+}
